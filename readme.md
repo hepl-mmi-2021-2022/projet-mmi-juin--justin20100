@@ -11,7 +11,7 @@ lien appstore
 ### Fonctionnement  du jeux
 
 Le but est d’aller le plus loin possible avec le petit bonhomme en passant de pilier en pilier (rectangle noir). On passe d’un a l’autre grace a une barre qui relie les deux.
-
+d
 cette barre est generee en demarrant des pieds du bonhomme quand on touche l’ecran et continue de grandir verticalement tant que l’on maintient le doigt sur l’ecran.
 
 Quand on enleve le doigt de l’ecran la barre arrete de grandir et tombe de -90° avec le point de rotation au pieds du bonhomme.
