@@ -8,7 +8,7 @@ lien appstore
 ![img/stickhero2.png](img/stickhero2.png)
 
 
-### Fonctionnement  du jeu
+### Fonctionnement  de stick hero
 
 Le but est d’aller le plus loin possible avec le petit bonhomme en passant de pilier en pilier (rectangle noir). On passe d’un a l’autre grace a une barre qui relie les deux.
 d
