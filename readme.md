@@ -39,10 +39,22 @@ Lorsque le bonhomme est en train d’avancer sur la barre pour passer d’un pil
     - les piliers, la barre et le bonhomme se deplacent vers la gauche
     - apparition d’un nouveau pilier de largeur random et de distance par rapport au précédent random aussi
 
+### Illustrations crées pour la reproduction du jeu
+
+
+![img/stickhero.png](img/background.png)
+![img/stickhero2.png](img/bonhome.png)
+![img/stickhero2.png](img/cerise.png)
+
 ### Points qu’il reste a faire
 
 TOUT 😥
 
-### video ytb d’explication
+### A faire pouyr le prochain cours
+
+- commencer le code et la structure de developpement
+- regarder la video ytb d'inspiration
+
+### video youtube d’explication (aide)
 
 [https://www.youtube.com/watch?v=eue3UdFvwPo](https://www.youtube.com/watch?v=eue3UdFvwPo)
