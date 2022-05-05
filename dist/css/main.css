@@ -6,6 +6,7 @@ canvas {
   background-image: url(../images/background.png?5011fae45097e370c23b1541ebcef473);
   width: 300px;
   height: 650px;
+  box-shadow: 5px 2px 10px black;
 }
 
 h1 {

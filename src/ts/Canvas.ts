@@ -1,4 +1,5 @@
 import {Pillar} from "./elements/Pillar";
+import {settings} from "./settings";
 
 export class Canvas {
     private readonly htmlCanvasElement: HTMLCanvasElement;
@@ -6,8 +7,8 @@ export class Canvas {
     public pillar: Pillar;
 
     constructor() {
-        this.htmlCanvasElement = document.getElementById('my-canvas') as HTMLCanvasElement;
-        this.ctx = this.htmlCanvasElement.getContext('2d') as CanvasRenderingContext2D;
+        this.htmlCanvasElement = document.getElementById(settings.canvas.id) as HTMLCanvasElement;
+        this.ctx = this.htmlCanvasElement.getContext(settings.canvas.CanvasRenderingContext) as CanvasRenderingContext2D;
         this.draw();
         this.addEventListeners();
     }
