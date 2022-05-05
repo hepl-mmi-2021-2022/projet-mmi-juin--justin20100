@@ -1,5 +1,18 @@
-* * {
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+body {
+  background-color: #3E716B;
+}
+
+canvas {
+  background-image: url(../images/background.png?5011fae45097e370c23b1541ebcef473);
+  width: 300px;
+  height: 650px;
+}
+
+h1 {
+  color: white;
+}
+
+.gameSpace {
+  margin: 3em auto 0;
+  width: 300px;
 }
