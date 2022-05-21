@@ -13,25 +13,24 @@ export class Canvas {
         this.ctx = this.htmlCanvasElement.getContext(settings.canvas.CanvasRenderingContext) as CanvasRenderingContext2D;
         this.drawables = [];
         this.pillars = [];
-        settings.pillar.pillars.forEach((pillar) => {
-            this.pillars.push(new Pillar(
+        for (let i = 0; i < settings.pillar.maxCount; i++){
+            this.pillars.push( new Pillar(
                 this.htmlCanvasElement,
                 this.ctx,
-                {settings.pillar.pillars.startPosition.x , settings.pillar.pillars.startPosition.y},
-                (Math.random() * (settings.pillar.pillars.maxStartPosition - settings.pillar.minStartPosition) + settings.pillar.minStartPosition)-(Math.random() * (settings.pillar.maxEndPosition - settings.pillar.minEndPosition) + settings.pillar.minEndPosition),
+                {x:settings.pillar.startPosition.x, y: settings.pillar.startPosition.y},
+                Math.trunc(settings.pillar.width.min + Math.random() * (settings.pillar.width.max - settings.pillar.width.min))
             ))
-        });
+        }
         this.addEventListeners();
         this.loadDrawable();
         this.draw();
     };
-
     addEventListeners() {
         this.htmlCanvasElement.addEventListener('mousedown', () => {
-            this.update();
+            // faire grandir le bridge
         })
         this.htmlCanvasElement.addEventListener('mouseup', () => {
-            // Appeller la fonction pour faire tomber la barre
+            // faire tomber le bridge
         })
     };
 

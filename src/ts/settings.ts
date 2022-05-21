@@ -1,10 +1,9 @@
 export const settings = {
     pillar: {
-        height: 60,
-        pillars: [
-            {startPosition: {x:200,y:600} ,minStartPosition: 200, maxStartPosition: 200, minEndPosition: 120, maxEndPosition: 120},
-            {startPosition: {x:200,y:600},minStartPosition: 200, maxStartPosition: 200, minEndPosition: 120, maxEndPosition: 120},
-        ]
+        height: 10,
+        width:{min:10,max:10},
+        startPosition: {x:10,y:10},
+        maxCount:2,
     },
     hero: {
         startPosition: 60,
